@@ -1,4 +1,4 @@
-# :seedling: SeSAC 2차 프로젝트 drunkenHigh 
+# :seedling: SeSAC 2차 프로젝트 Smile Hub
 <br/>
 
 ## Smile Hub
