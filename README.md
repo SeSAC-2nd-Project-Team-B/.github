@@ -16,16 +16,16 @@
 
 | 팀원     | 역할          | 작업                                                         |
 |:----------:|:---------------:|--------------------------------------------------------------|
-| 석원준 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/ymind14563)  | 백        | 유저 CRUD, 마이페이지, Money 충전, 프로필 업로드 (S3), 채팅 (socket), 리뷰 CRUD, 관리자 페이지 |
+| 석원준 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/ymind14563)  | 백        | 유저 CRUD,  리뷰 CRUD, Money 충전, 프로필 업로드 (S3), 채팅 (socket), 로그인  |
 |          |  프론트    | 채팅, 관리자 페이지                    |
 |          |  서버 배포     | AWS                                                         |
 | 유예진 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/yjyoo6831)   |  백        | 상품 CRUD, 새상품 데이터 가져오기 (네이버 API), 마이페이지: 찜 / 구매 / 판매 내역, 배송 현황   |
 | 이유나 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/youna99)  |  프론트   | Header, 로그인 / 회원가입 (카카오 주소 API), 마이페이지: 프로필, Money 충전, 찜 / 구매 / 판매 내역, 배송 현황, 상품 CRUD UI |
 
 #### 석원준 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
-- **백엔드** : 유저 CRUD, 마이페이지, Money 충전, 프로필 업로드 (S3), 채팅 (socket), 리뷰 CRUD, 관리자 페이지
+- **백엔드** : 유저 CRUD (로그인, 주소서비스, 판매자 온도 계산), 리뷰 CRUD, 채팅 (socket.io/ 채팅방 CR, 메세지 CR), Money 충전, 프로필 사진 업로드 (S3-multer),  권한(JWT), 암호화(bcrypt)
 - **프론트엔드** : 채팅, 관리자 페이지
-- **서버 배포**(AWS)
+- **서버 배포**: AWS (EC2, RDS, S3), NGINX
 
 #### 유예진 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
 - **백엔드** : 상품 CRUD, 새상품 데이터 가져오기 (네이버 API), 마이페이지( 찜 / 구매 / 판매 내역, 배송 현황 )
@@ -107,21 +107,42 @@
 ├── postcss.config.js
 └── tailwind.config.js
 ```
+
+- 백엔드
+```
+├─config               # 설정 파일 관리 폴더
+│  ├─config.js
+│  └─s3config.js
+├─controller           # 요청 처리 컨트롤러 폴더
+│  ├─product
+│  └─user
+├─middleware           # 미들웨어 관리 폴더
+├─models               # 데이터베이스 모델 폴더
+│  ├─product
+│  └─user
+├─routes               # 라우터 파일 폴더
+├─service              # 비즈니스 로직 파일 폴더
+├─utils                # 유틸리티 함수 파일 폴더
+├─views                # s3, socket.io 테스트용 ejs 폴더
+├─app.js               # 메인 애플리케이션 파일
+└─swagger.js           # Swagger 설정 파일 (API 문서화)
+
+```
 <br>
 
-## :bulb: 요구사항 명세서
-* API 명세서
-
-<br>
-* 개발규칙 정의서
-
+## :bulb: 요구사항정의서
+![사용자요구사항정의서](https://github.com/user-attachments/assets/076ef774-8051-4e41-9333-3c4385420113)
 
 <br>
 
 ## :bulb: API 명세서
+![swagger](https://github.com/user-attachments/assets/627e1382-e28e-4fed-988d-ea07462c9e29)
+![swagger_1](https://github.com/user-attachments/assets/8e968c1e-ec2d-4c8e-8029-dab646df8dfd)
+
+<br>
 
 ## 📚 데이터베이스 ERD
-
+![ERD](https://github.com/user-attachments/assets/a0ee8efe-93e5-4a2e-a266-2585f84f65aa)
 
 <br>
 
