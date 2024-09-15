@@ -14,14 +14,6 @@
 
 ## :raising_hand: Developers
 
-| 팀원     | 역할          | 작업                                                         |
-|:----------:|:---------------:|--------------------------------------------------------------|
-| 석원준 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/ymind14563)  | 백        | 유저 CRUD,  리뷰 CRUD, Money 충전, 프로필 업로드 (S3), 채팅 (socket), 로그인  |
-|          |  프론트    | 채팅, 관리자 페이지                    |
-|          |  서버 배포     | AWS                                                         |
-| 유예진 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/yjyoo6831)   |  백        | 상품 CRUD, 새상품 데이터 가져오기 (네이버 API), 마이페이지: 찜 / 구매 / 판매 내역, 배송 현황   |
-| 이유나 [<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>](https://github.com/youna99)  |  프론트   | Header, 로그인 / 회원가입 (카카오 주소 API), 마이페이지: 프로필, Money 충전, 찜 / 구매 / 판매 내역, 배송 현황, 상품 CRUD UI |
-
 #### 석원준 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ymind14563)
 - **백엔드** : 유저 CRUD (로그인, 주소서비스, 판매자 온도 계산), 리뷰 CRUD, 채팅 (socket.io/ 채팅방 CR, 메세지 CR), Money 충전, 프로필 사진 업로드 (S3-multer),  권한(JWT), 암호화(bcrypt)
 - **프론트엔드** : 채팅, 관리자 페이지
@@ -29,6 +21,7 @@
 
 #### 유예진 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/yjyoo6831)
 - **백엔드** : 상품 CRUD, 새상품 데이터 가져오기 (네이버 API), 마이페이지( 찜 / 구매 / 판매 내역, 배송 현황 )
+- **프론트엔드** : 상품 CRUD
 
 #### 이유나 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/youna99)
 - **프론트엔드** : Header, 로그인 / 회원가입 (카카오 주소 API), 마이페이지( 프로필, Money 충전, 찜 / 구매 / 판매 내역, 배송 현황 ), 상품 CRUD UI
@@ -36,22 +29,6 @@
 
 <br>
 
-## :computer: Skills
-* Front-end:
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=white"/>  <img src="https://img.shields.io/badge/ejs-B4CA65?style=flat&logo=ejs&logoColor=white"/>  <img src="https://img.shields.io/badge/CSS-1572b6?style=flat&logo=css3&logoColor=white"/>  <img src="https://img.shields.io/badge/tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white"/>   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=333333"/> <img src="https://img.shields.io/badge/Axios-5a29e4?style=flat&logo=axios&logoColor=white"/> <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"/> <img src="https://img.shields.io/badge/Swiper-6332F6?style=flat&logo=swiper&logoColor=white"/>    
-
-* Back-end:
-<img src="https://img.shields.io/badge/Node.js-5fa04e?style=flat&logo=Node.js&logoColor=white"/>   <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=Express&logoColor=white"/>   <img src="https://img.shields.io/badge/Sequlize-52b0e7?style=flat&logo=sequelize&logoColor=white"/>
-
-* DB: <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>
-
-* Tools: 
-<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/>   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white"/>   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/>   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-* Deploy: <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white"/>   <img src="https://img.shields.io/badge/Apache-d22128?style=flat&logo=apache&logoColor=white"/>   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white"/>
-* Communication: 
-<img src="https://img.shields.io/badge/Slack-4a154b?style=flat&logo=slack&logoColor=white"/>   <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white"/>
-
-<br>
 
 ## 🧰 Architecture
 
@@ -60,11 +37,14 @@
 
 ## ❓ 주요 기술 채택 이유
 
-- JWT (JSON Web Token) : 보안 및 서버의 부하를 줄이고, 확장성을 높이기 위해 채택
-- Socket.io : 채팅 기능을 위해 실시간 양방향 통신이 가능하고, 다양한 이벤트를 쉽게 처리하기 위해 채택
-- Multer-S3 : AWS 서버에 파일을 업로드하여 서버의 저장 공간 절약 및 파일 관리의 용이성과 파일 형식 및 크기 제한을 위해 채택
-- Sequelize: Node.js 환경에 최적화 되어있어 비동기 프로그래밍에 적합하고, 복잡한 쿼리문 대신 ORM을 사용하여 데이터 추출을 위해 채택
-- AWS: 현재 클라우드 시장에서 가장 큰 점유율을 차지하고 있으며, EC2, S3, RDS 등 다양한 서비스를 지원하고, 자원을 확대/축소 하는 등 유연성의 이점으로 인해 채택
+- **JWT** (JSON Web Token) : 보안 및 서버의 부하를 줄이고, 확장성을 높이기 위해 채택
+- **Socket.io** : 채팅 기능을 위해 실시간 양방향 통신이 가능하고, 다양한 이벤트를 쉽게 처리하기 위해 채택
+- **Multer-S3** : AWS 서버에 파일을 업로드하여 서버의 저장 공간 절약 및 파일 관리의 용이성과 파일 형식 및 크기 제한을 위해 채택
+- **Sequelize**: Node.js 환경에 최적화 되어있어 비동기 프로그래밍에 적합하고, 복잡한 쿼리문 대신 ORM을 사용하여 데이터 추출을 위해 채택
+- **AWS** : 현재 클라우드 시장에서 가장 큰 점유율을 차지하고 있으며, EC2, S3, RDS 등 다양한 서비스를 지원하고, 자원을 확대/축소 하는 등 유연성의 이점으로 인해 채택
+- **React** : 강력한 생태계와 컴포넌트 재사용성이 뛰어나며, 상태 관리의 유연성이 더 적합하여 채택택
+- **Redux Toolkit** : 복잡한 Redux 설정을 간소화하고 더 직관적인 API와 유틸리티를 제공하여 상태 관리를 효율적으로 하기 위해 채택
+- **React-router** : 불필요한 API를 줄여 SPA(Single Page Application)에서의 효율적인 라우팅 관리와 동적 페이지 전환을 쉽게 구현하기 위해 채택
 
 <br>
 
@@ -76,22 +56,22 @@
 │   ├── index.html
 │   └── favicon.ico
 ├── /src
-│   ├── /app : 애플리케이션의 전역 상태 관리, 라우팅
+│   ├── /app                    # 애플리케이션의 전역 상태 관리, 라우팅
 │   │   ├── ProtectedRouter.js
 │   │   ├── rootReducer.js
 │   │   ├── rootRouter.js
 │   │   └── rootStore.js
-│   ├── /features : Container Component (상태와 비즈니스 로직을 관리)
+│   ├── /features               # Container Component (상태와 비즈니스 로직을 관리)
 │   │   ├── Adimin
 │   │   ├── Chat
 │   │   ├── Product
 │   │   └── User
-│   ├── /pages : Presentational Component (UI, 화면 렌더링 역할)
+│   ├── /pages                  # Presentational Component (UI, 화면 렌더링 역할)
 │   │   ├── Adimin
 │   │   ├── Chat
 │   │   ├── Product
 │   │   └── User
-│   ├── /shared : 공통 Component 분리
+│   ├── /shared                 # 공통 Component 분리
 │   │   ├── Header.js
 │   │   ├── input.js
 │   │   ├── Modal.js
