@@ -1,4 +1,4 @@
-# :seedling: SeSAC 2차 프로젝트 Smile Hub
+![스크린샷 2024-09-16 181008](https://github.com/user-attachments/assets/3851aef1-70cd-418d-9261-5f04d3564ed1)# :seedling: SeSAC 2차 프로젝트 Smile Hub
 <br/>
 
 ## <img src="https://github.com/user-attachments/assets/d32dab93-440f-413f-b380-d70518a612ca" alt="Smile Hub" width="30"/> 프로젝트 소개
@@ -147,8 +147,9 @@
 
 ### 메인, 검색
 - 무한스크롤, 키워드로 검색
-<img src="https://github.com/user-attachments/assets/abb54b8a-d0bc-4e3e-9304-21dd181c5692" style="width: 45%">
+<img src="https://github.com/user-attachments/assets/0e38c8d2-684d-44b9-a692-d3a5a9f1097d" style="width: 45%">
 <img src="https://github.com/user-attachments/assets/3d6bb75e-3722-4e1f-8a25-f15217a620e5" style="width: 45%">
+
 
 ### 상세
 - 상품 이미지 swiper, 배송 현황, 채팅/안전거래, 해당 상품의 최저가 목록(네이버 API)
