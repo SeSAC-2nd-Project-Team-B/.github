@@ -1,4 +1,4 @@
-![스크린샷 2024-09-16 181008](https://github.com/user-attachments/assets/3851aef1-70cd-418d-9261-5f04d3564ed1)# :seedling: SeSAC 2차 프로젝트 Smile Hub
+# :seedling: SeSAC 2차 프로젝트 Smile Hub
 <br/>
 
 ## <img src="https://github.com/user-attachments/assets/d32dab93-440f-413f-b380-d70518a612ca" alt="Smile Hub" width="30"/> 프로젝트 소개
